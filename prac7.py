@@ -2,7 +2,7 @@
 #1. To measure the length of string
 a="I am happy."
 print(len(a))
-#2. To check whether a string enters with a specific phrase or letter
+#2. To check whether a string ends with a specific phrase or letter
 print(a.endswith("."))
 print(a.endswith("ppy."))
 #3. To count the total no. of occurences of a character i a string.
@@ -12,3 +12,8 @@ b="abcd"
 print(b.capitalize())
 #5.To find a word in the string and print the index of its first occurence
 print(a.find("am"))
+#6. To check whether a string starts with a specific phrase or letter
+print(a.startswith("I"))
+print(a.startswith("ppy."))
+#7.To replace a word
+print(a.replace("happy.","wondered!"))
