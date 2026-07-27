@@ -5,3 +5,13 @@ marks={
     "C": 67
 }
 print(marks, type(marks))
+print(marks["B"])
+#Dictionary is immutable.
+#Important methods:
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+#updation:
+marks.update({"A":99, "P":78})
+print(marks)
+print(marks.get("P"))
