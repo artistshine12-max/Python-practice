@@ -1,0 +1,7 @@
+#Dictionaries and Sets in python:
+marks={
+    "A": 52,
+    "B": 90,
+    "C": 67
+}
+print(marks, type(marks))
