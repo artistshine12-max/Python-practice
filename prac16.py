@@ -2,7 +2,8 @@
 class Employee:
     language="Python" #this is a class attribute.
     salary=1200000
-
+def greet(self):
+        print("Good Morning!")
     def getInfo(self):
         print(f"The language is {self.language}. THe salary is {self.salary}")
 
@@ -10,4 +11,5 @@ class Employee:
 harry= Employee()
 harry.language="JavaScript" #Instance attribute
 print(harry.language, harry.salary)
+harry.greet()
 harry.getInfo()
